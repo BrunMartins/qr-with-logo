@@ -2,12 +2,15 @@
   "name": "qr-with-logo",
   "version": "1.0.5",
   "main": "index.js",
+  "typings": "types/index.d.ts",
+  "module": "index.js",
+  "className": "QrWithLogo",
   "scripts": {
     "test": "test/test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ZachHappel/qr-with-logo.git"
+    "url": "git+https://github.com/BrunMartins/qr-with-logo"
   },
   "keywords": [
     "qrcode",
@@ -19,9 +22,9 @@
   "author": "Zacharie Happel",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ZachHappel/qr-with-logo/issues"
+    "url": "https://github.com/BrunMartins/qr-with-logo/issues"
   },
-  "homepage": "https://github.com/ZachHappel/qr-with-logo#readme",
+  "homepage": "https://github.com/BrunMartins/qr-with-logo#readme",
   "description": "",
   "dependencies": {
     "qrcode": "^1.4.1",
